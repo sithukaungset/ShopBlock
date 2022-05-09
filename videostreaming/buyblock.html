@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shop Block</title>
+    <style>   
+      Body {  
+        background-image:
+        url('https://i.pinimg.com/originals/61/c3/6e/61c36e236bdcc77ab100077492bcea1b.gif');
+        font-family: Calibri, Helvetica, sans-serif;  
+        background-size: 2000px;
+
+      }  
+      h1 {
+          width:400px;
+          margin: 0 auto;
+          text-align: center;
+          display: block;
+          color: grey;
+       
+         
+      } 
+      h2 {
+        width:400px;
+        margin: auto auto;
+        text-align: center;
+        display: block;
+        background: teal;
+       
+    } 
+      form {
+        width:400px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+ 
+       
+    } 
+    label {
+      width:400px;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      background: teal;
+     
+  } 
+      button {   
+        background-color: grey;   
+        width: 50%; 
+        color: orange;   
+        padding: 15px;   
+        margin: 80px 480px;   
+        border: none;   
+        cursor: pointer;   
+          }  
+      button:hover {   
+            opacity: 0.7;   
+        }  
+  
+           
+      </style> 
+    <body>
+      <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet'>
+      <h1 style="font-family: 'Iceland';font-size: 55px;">SHOP BLOCK</h1>     <button style="font-size:25px;font-family: 'Share Tech Mono';" onclick="location.href = 'http://203.247.240.226:8080/api/';" id="myButton1"  data-inline="true" >Back</button>
+<br><br><br>
+      <form method="POST" action="/api/buyblock">
+        <label>Buyer   </label>
+        <input type="text" placeholder="Buyer Name" name="BuyerName"><br><br>
+        <label>Seller  </label>
+        <input type="text" placeholder="Seller Name" name="SellerName"><br><br>
+        <label>Amount </label>
+        <input type="number" placeholder="Price" name="Price"><br><br>
+
+        <input type="Submit" value="Check out"  style="height:50px; width:80px">
+      </form>
+    </body>
+  </head>
+</html>

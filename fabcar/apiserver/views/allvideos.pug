@@ -1,0 +1,13 @@
+doctype html
+html
+ head
+  title QOE Accelerator
+ body
+  h1 DETAILS OF ALL Video Chunks
+ 
+   a(href='/api/queryallvideos')  View All Video Chunks
+   
+   a(href='/api/createvideo')  Insert  a new video
+  ul
+   each item in list
+    li="ChunkID:  " +item["Key"]+" Video list ID:  "  +item["Record"]["video_list_id"]+" Resolution ID:  "  + item["Record"]["resolution_id"] + " file name:  "  + item["Record"]["file_name"] + " Chunk number:  "  +item["Record"]["chunk_number"] + " Date:  "  + item["Record"]["date"] + " file size:  "  + item["Record"]["file_size"] + " Hash value:  "  + item["Record"]["hash_value"] 

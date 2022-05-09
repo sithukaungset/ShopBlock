@@ -1,0 +1,27 @@
+.list {
+  display: grid;
+  grid-template-columns: 180px 180px;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  border: 1px solid rgb(0, 0, 0);
+  list-style-type: none;
+}
+
+.list li {
+  width: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.list li span {
+  display: block;
+  padding: 6px 9px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.list li span.category {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}

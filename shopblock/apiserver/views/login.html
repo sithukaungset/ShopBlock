@@ -1,0 +1,81 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Shop Block </title>  
+<style>   
+Body {  
+   
+  background-image:
+  url('https://i.pinimg.com/originals/61/c3/6e/61c36e236bdcc77ab100077492bcea1b.gif');
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-size: 1600px;
+}  
+ h1 {
+          width:400px;
+          margin: 0 auto;
+          text-align: center;
+          display: block;
+          color: white;
+          font-family: 'Iceland';
+         
+      } 
+button {   
+       background-color: grey;   
+       width: 15%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        font-size: 20px; 
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], 
+ input[type=password] {   
+        width: 25%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+.container {  
+        padding: 20px;   
+        background-color: grey;
+        opacity: 100%;  
+   
+        border-color: red;
+    }   
+</style>   
+</head>    
+<body> 
+    <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>  
+    <center> <h1 style=" font-size: 70px;"> Shop Block </h1>
+    <form>  
+        <div class="container">   
+            <p><label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required> </p>
+            <p><label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required> </p>  
+            <button onclick="location.href = 'http://203.247.240.236:16220/api/';" id="myButton" class="float-left submit-button" >Home</button>
+            <button onClick="window.location.href='http://203.247.240.236:16220/api/';" type="submit" value="Submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html>  

@@ -1,0 +1,85 @@
+doctype html
+html
+ head
+  title QOE Accelerator
+  style.
+    Body {
+
+    background-image:
+    url('https://connects.world/wp-content/uploads/2021/07/blockchain.jpeg');
+    
+    font-family: Calibri, Helvetica, sans-serif;
+    }
+    h1 {
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+    background: teal;
+    }
+
+    h2 {
+    width:120px;
+    text-align: center;
+    display; block;
+    background: teal;
+    }
+    button {
+    background-color: grey;
+    color: orange;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px;
+    }
+    button:hover {
+    opacity: 0.7;
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+    }
+    .container {
+    padding: 30px;
+    background-color: dodgerblue  ;
+    opacity: 100%;
+    max-width: 1500px;
+    display: table;
+    }
+
+    ul {
+      max-width: 1500px;
+      display: grid;
+      grid-template-columns: 100%;
+      padding-left: 0;
+      border: 1px solid black;
+    }
+
+    li {
+      list-style: inside;
+      border: 1px dashed black;
+      padding: 5px;
+      max-width: 2000px;
+      font-size:15px;
+      color: white;
+    }
+
+  h1 XR Edge Chain
+  .center
+    h2 LEDGER
+button#myButton1(style='font-size:25px;' onclick="location.href = 'http://203.247.240.236:16220/api/queryallvideos';") View All Video Chunks
+button#myButton1(style='font-size:25px;' onclick="location.href = 'http://203.247.240.236:16220/api/createvideo';") Add New Video Chunk
+
+.container
+    ul 
+     each item in list
+    
+        li="ChunkID:  " +item["Key"]+ " || " + "  User Name:  "  +item["Record"]["userID"]+" || " +" Title:  "  + item["Record"]["title"] +" || " + " Chunk Size:  "  + item["Record"]["chunk_size"] + " || " + " Resolution:  "  +item["Record"]["resolution"] + " || " + " Date:  "  + item["Record"]["date"] + " || " + " hit:  "  + item["Record"]["hit"]+ " || "
+
+
+
+
+
+

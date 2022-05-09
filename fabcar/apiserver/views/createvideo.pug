@@ -1,0 +1,51 @@
+doctype html
+html
+ head
+  title QOE Accelerator
+  body
+   h1 First Page
+   a(href='/api/queryallvideos')  View All Videos
+   
+   a(href='/api/createvideo')  Add a new video chunk
+   br
+   br
+   br
+   form(method='POST' action='/api/addvideo')
+    label() VIDEONumber   
+    input(type='text', placeholder='Video Number' name='videoNumber')
+    br
+    br
+    label() VIDEOID   
+    input(type='text', placeholder='Chunk ID' name='id')
+    br
+    br
+    label() VideoListID 
+    input(type='text', placeholder='Video list ID' name='video_list_id')
+    br
+    br
+    label() ResolutionID :  
+    input(type='text', placeholder='Resolution ID' name='resolution_id')
+    br
+    br
+    label() FileName :  
+    input(type='text', placeholder='File name' name='file_name')
+    br
+    br
+    label() ChunkNumber :  
+    input(type='text', placeholder='Chunk number' name='chunk_number')
+    br
+    br
+    label() Date :  
+    input(type='text', placeholder='Date' name='date')
+    br
+    br
+    label() FileSize :  
+    input(type='text', placeholder='file size' name='file_size')
+    br
+    br
+    label() HashValue :  
+    input(type='text', placeholder='Hash value' name='hash_value')
+    br
+    br
+    
+    input(type='Submit' value='Submit')

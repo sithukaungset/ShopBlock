@@ -1,0 +1,93 @@
+doctype html
+head
+  title QOE Accelerator
+  style.
+    Body {
+    background-image:
+    url('https://connects.world/wp-content/uploads/2021/07/blockchain.jpeg');
+    font-family: Calibri, Helvetica, sans-serif;
+    }
+    h1 {
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    display; block;
+    background: teal;
+    }
+    h2 {
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    display; block;
+    background: teal;
+    }
+    form {
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    display; block;
+    }
+    label {
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    display; block;
+    background: teal;
+    }
+    button {
+    background-color: grey;
+    width: 400px;
+    color: orange;
+    margin: 20px 300px;
+    padding: 5px;
+    justify-content: center;
+    
+    border: none;
+    cursor: pointer;
+    }
+    button:hover {
+    opacity: 0.7;
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+h1 XR Edge Chain
+.center
+    button#myButton1(style='font-size:25px;' onclick="location.href = 'http://203.247.240.236:16220/api/queryallvideos';" data-inline='true') View All Video Chunks
+
+br
+br
+br
+form(method='POST' action='/api/addvideo')
+  label Chunk Number  
+  input(type='text' placeholder='Chunk Number' name='videoNumber')
+  br
+  br
+  label User Name  
+  input(type='text' placeholder='User Name' name='userID')
+  br
+  br
+  label Chunk Title
+  input(type='text' placeholder='Chunk Title' name='title')
+  br
+  br
+  label Chunk Size :  
+  input(type='text' placeholder='Chunk Size' name='chunk_size')
+  br
+  br
+  label Resolution :  
+  input(type='text' placeholder='Resolution' name='resolution')
+  br
+  br
+  label Date :  
+  input(type='text' placeholder='Date' name='date')
+  br
+  br
+  label Hit :  
+  input(type='text' placeholder='Hit' name='hit')
+  br
+  br
+  input(type='Submit' value='Submit' style='height:50px; width:80px')
