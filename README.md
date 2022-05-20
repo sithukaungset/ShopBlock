@@ -41,19 +41,6 @@ transfer an asset in a more realistic transfer scenario.
 | [Events](asset-transfer-events) | The events sample demonstrates how smart contracts can emit events that are read by the applications interacting with the network. | [README](asset-transfer-events/README.md)  | JavaScript, Java | JavaScript |
 | [Attribute-based access control](asset-transfer-abac) | Demonstrates the use of attribute and identity based access control using a simple asset transfer scenario | [README](asset-transfer-abac/README.md)  | Go | None |
 
-## ScreenShots
-Exercises                   |Exercises (Chest, Shoulder, Bicep and Tricep, Back, Legs and Abs)              
-:-------------------------:|:-------------------------:
-![Exercises](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-39-29.png) | ![DifferentExercises](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-39-36.png)
-
-Gym Time                |Calendar for Gym schedules                
-:-------------------------:|:-------------------------:
-![Gym Time](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-40-30.png) | ![Calendar](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-40-35.png)
-
-Nutrition               |Daily Protein suggestions                
-:-------------------------:|:-------------------------:
-![Nutrition](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-40-43.png) | ![DailyProtein](https://github.com/sithukaungset/gymbro/blob/main/gymbro_photos/Screenshot%20from%202022-05-16%2010-40-49.png)
-
 
 
 ## Additional samples
